@@ -7,17 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34A016D92142C617003E1F35 /* ShoppingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A016D82142C617003E1F35 /* ShoppingItem.swift */; };
+		34A016DC2142C6B0003E1F35 /* ShoppingItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A016DB2142C6B0003E1F35 /* ShoppingItemController.swift */; };
+		34A016DE2142CBAE003E1F35 /* SettingsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A016DD2142CBAE003E1F35 /* SettingsKeys.swift */; };
+		34A016E02142CDFB003E1F35 /* ShoppingListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A016DF2142CDFB003E1F35 /* ShoppingListCollectionViewController.swift */; };
+		34A016E22142CE19003E1F35 /* ShoppingItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A016E12142CE19003E1F35 /* ShoppingItemCollectionViewCell.swift */; };
+		34A016E42142D00F003E1F35 /* PlaceOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A016E32142D00F003E1F35 /* PlaceOrderViewController.swift */; };
+		34A016E62142D0E6003E1F35 /* IdentifierKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A016E52142D0E6003E1F35 /* IdentifierKeys.swift */; };
+		34A016E82142D8C4003E1F35 /* NotificationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A016E72142D8C4003E1F35 /* NotificationHelper.swift */; };
+		34A016EB2142E2C1003E1F35 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A016EA2142E2C1003E1F35 /* HeaderCollectionReusableView.swift */; };
+		34A016ED2142ED9B003E1F35 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A016EC2142ED9B003E1F35 /* ItemDetailViewController.swift */; };
 		4613E91221143BFC00E7FF73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4613E91121143BFC00E7FF73 /* AppDelegate.swift */; };
-		4613E91421143BFC00E7FF73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4613E91321143BFC00E7FF73 /* ViewController.swift */; };
 		4613E91721143BFC00E7FF73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4613E91521143BFC00E7FF73 /* Main.storyboard */; };
 		4613E91921143BFD00E7FF73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4613E91821143BFD00E7FF73 /* Assets.xcassets */; };
 		4613E91C21143BFD00E7FF73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4613E91A21143BFD00E7FF73 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34A016D82142C617003E1F35 /* ShoppingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItem.swift; sourceTree = "<group>"; };
+		34A016DB2142C6B0003E1F35 /* ShoppingItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItemController.swift; sourceTree = "<group>"; };
+		34A016DD2142CBAE003E1F35 /* SettingsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsKeys.swift; path = "Shopping List/Resources/SettingsKeys.swift"; sourceTree = SOURCE_ROOT; };
+		34A016DF2142CDFB003E1F35 /* ShoppingListCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListCollectionViewController.swift; sourceTree = "<group>"; };
+		34A016E12142CE19003E1F35 /* ShoppingItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		34A016E32142D00F003E1F35 /* PlaceOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceOrderViewController.swift; sourceTree = "<group>"; };
+		34A016E52142D0E6003E1F35 /* IdentifierKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifierKeys.swift; sourceTree = "<group>"; };
+		34A016E72142D8C4003E1F35 /* NotificationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHelper.swift; sourceTree = "<group>"; };
+		34A016EA2142E2C1003E1F35 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		34A016EC2142ED9B003E1F35 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
 		4613E90E21143BFC00E7FF73 /* Shopping List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shopping List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4613E91121143BFC00E7FF73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4613E91321143BFC00E7FF73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4613E91621143BFC00E7FF73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4613E91821143BFD00E7FF73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4613E91B21143BFD00E7FF73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +53,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34A016D62142C5E4003E1F35 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4613E91821143BFD00E7FF73 /* Assets.xcassets */,
+				4613E91A21143BFD00E7FF73 /* LaunchScreen.storyboard */,
+				4613E91D21143BFD00E7FF73 /* Info.plist */,
+				34A016DD2142CBAE003E1F35 /* SettingsKeys.swift */,
+				34A016E52142D0E6003E1F35 /* IdentifierKeys.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		34A016D72142C5ED003E1F35 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4613E91521143BFC00E7FF73 /* Main.storyboard */,
+				34A016E32142D00F003E1F35 /* PlaceOrderViewController.swift */,
+				34A016DF2142CDFB003E1F35 /* ShoppingListCollectionViewController.swift */,
+				34A016EC2142ED9B003E1F35 /* ItemDetailViewController.swift */,
+				34A016EA2142E2C1003E1F35 /* HeaderCollectionReusableView.swift */,
+				34A016E12142CE19003E1F35 /* ShoppingItemCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		34A016DA2142C697003E1F35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				34A016D82142C617003E1F35 /* ShoppingItem.swift */,
+				34A016DB2142C6B0003E1F35 /* ShoppingItemController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		34A016E92142D8C8003E1F35 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				34A016E72142D8C4003E1F35 /* NotificationHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		4613E90521143BFC00E7FF73 = {
 			isa = PBXGroup;
 			children = (
@@ -55,11 +115,10 @@
 			isa = PBXGroup;
 			children = (
 				4613E91121143BFC00E7FF73 /* AppDelegate.swift */,
-				4613E91321143BFC00E7FF73 /* ViewController.swift */,
-				4613E91521143BFC00E7FF73 /* Main.storyboard */,
-				4613E91821143BFD00E7FF73 /* Assets.xcassets */,
-				4613E91A21143BFD00E7FF73 /* LaunchScreen.storyboard */,
-				4613E91D21143BFD00E7FF73 /* Info.plist */,
+				34A016DA2142C697003E1F35 /* Model */,
+				34A016D72142C5ED003E1F35 /* View */,
+				34A016E92142D8C8003E1F35 /* Helpers */,
+				34A016D62142C5E4003E1F35 /* Resources */,
 			);
 			path = "Shopping List";
 			sourceTree = "<group>";
@@ -135,7 +194,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4613E91421143BFC00E7FF73 /* ViewController.swift in Sources */,
+				34A016D92142C617003E1F35 /* ShoppingItem.swift in Sources */,
+				34A016E42142D00F003E1F35 /* PlaceOrderViewController.swift in Sources */,
+				34A016E22142CE19003E1F35 /* ShoppingItemCollectionViewCell.swift in Sources */,
+				34A016DC2142C6B0003E1F35 /* ShoppingItemController.swift in Sources */,
+				34A016DE2142CBAE003E1F35 /* SettingsKeys.swift in Sources */,
+				34A016E82142D8C4003E1F35 /* NotificationHelper.swift in Sources */,
+				34A016E02142CDFB003E1F35 /* ShoppingListCollectionViewController.swift in Sources */,
+				34A016E62142D0E6003E1F35 /* IdentifierKeys.swift in Sources */,
+				34A016ED2142ED9B003E1F35 /* ItemDetailViewController.swift in Sources */,
+				34A016EB2142E2C1003E1F35 /* HeaderCollectionReusableView.swift in Sources */,
 				4613E91221143BFC00E7FF73 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,8 +349,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VXUQXR6S56;
-				INFOPLIST_FILE = "Shopping List/Info.plist";
+				DEVELOPMENT_TEAM = 2SS9AYZ8LT;
+				INFOPLIST_FILE = "$(SRCROOT)/Shopping List/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,8 +368,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VXUQXR6S56;
-				INFOPLIST_FILE = "Shopping List/Info.plist";
+				DEVELOPMENT_TEAM = 2SS9AYZ8LT;
+				INFOPLIST_FILE = "$(SRCROOT)/Shopping List/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
